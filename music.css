@@ -1,0 +1,77 @@
+/* texts */
+
+body {
+    background-image: url('media/landing/crumpled paper.jpeg');
+    background-size: cover;
+    margin-bottom: 80em;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Nothing You Could Do", sans-serif;
+    font-size: 96px;
+}
+
+h2 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: -50px;
+}
+
+p {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    margin-left: 7em;
+}
+
+/* main */
+
+.container {
+    display: flex; 
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    text-align: center;
+    height: 100vh; 
+    background-image: 
+        url('media/music/background.png'),
+        url('media/yellow pattern.png');
+    background-size: 
+        cover,
+        900px;
+}
+
+.smellycat {
+    width: 2000px;    
+    height: auto;
+    margin-left: -5em;
+    margin-top: -5em;
+}
+
+.christmassong {
+    width: 2000px;    
+    height: auto;
+    margin-left: -28em;
+    margin-top: -40em;
+}
+
+.stickyshoes {
+    width: 2000px;    
+    height: auto;
+    margin-left: 10em;
+    margin-top: -45em;
+}
+
+.yourlove {
+    width: 2000px;    
+    height: auto;
+    margin-left: -40em;
+    margin-top: -60em;
+}
+
+.twoofthemkissedlastnight {
+    width: 2000px;    
+    height: auto;
+    margin-left: -5em;
+    margin-top: -50em;
+}
