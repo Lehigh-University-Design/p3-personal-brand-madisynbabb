@@ -1,7 +1,7 @@
 /* texts */
 
 body {
-    background-image: url('media/landing/crumpled paper.jpeg');
+    background-image: url('media/index/crumpled paper.jpeg');
     background-size: cover;
     margin: 0;
 }
@@ -24,7 +24,7 @@ h3 {
     font-weight: normal;
     margin-left: 3em;
     margin-right: 30em;
-    background-image: url('media/landing/purple-washi.png');
+    background-image: url('media/index/purple-washi.png');
     background-size: cover;                   
     padding: 5px;
     width: 145px;
@@ -35,7 +35,7 @@ h4 {
     font-size: 48px;
     font-weight: normal;
     margin-left: 7em;
-    background-image: url('media/landing/purple-washi.png');
+    background-image: url('media/index/purple-washi.png');
     background-size: cover;                   
     padding: 5px;
     width: 200px; 
@@ -47,7 +47,7 @@ h5 {
     font-size: 48px;
     font-weight: normal;
     margin-right: 35em;
-    background-image: url('media/landing/purple-washi.png');
+    background-image: url('media/index/purple-washi.png');
     background-size: cover;                   
     padding: 5px;
     width: 200px;
@@ -198,7 +198,7 @@ p2 {
     text-align: center;
     height: 100vh; 
     background-image: 
-        url('media/landing/background.png'),
+        url('media/index/background.png'),
         url('media/yellow pattern.png');
     background-size: 
         cover,
