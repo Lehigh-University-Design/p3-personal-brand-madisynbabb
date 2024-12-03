@@ -135,17 +135,28 @@ h6:hover {
     text-align: center;
     height: 100vh; 
     background-image: 
-        url('media/recipe/background.png'),
         url('media/yellow pattern.png');
     background-size: 
-        cover,
         900px;
 }
 
-@media (max-width: 420px) {
+.text {
+    background-image: 
+        url('media/recipe/background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 80vw
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 64px;
+    }
     .container {
+        background-repeat: no-repeat, repeat;
         background-size: 
-            500px,
+            cover,
             500px; 
     }
 }
