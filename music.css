@@ -161,7 +161,7 @@ h6:hover {
     }
 
 .christmassong {
-    width: 2000px;    
+    width: 500px;    
     height: 100%;
     margin-left: -28em;
     margin-top: -40em;
@@ -176,12 +176,12 @@ h6:hover {
     }
 
 .stickyshoes {
-    width: 2000px;    
+    width: 500px;    
     height: auto;
     margin-left: 10em;
     margin-top: -45em;
     transition: 500ms;
-    overflow:hidden !important;
+    overflow: hidden !important;
 }
 
 .stickyshoes:hover { 
@@ -190,7 +190,7 @@ h6:hover {
     }
 
 .yourlove {
-    width: 2000px;    
+    width: 500px;    
     height: auto;
     margin-left: -40em;
     margin-top: -60em;
@@ -204,7 +204,7 @@ h6:hover {
     }
 
 .twoofthemkissedlastnight {
-    width: 2000px;    
+    width: 500px;    
     height: auto;
     margin-left: -5em;
     margin-top: -50em;
