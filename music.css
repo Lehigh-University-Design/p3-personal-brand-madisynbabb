@@ -52,6 +52,18 @@ h6:hover {
     justify-content: space-between;
     background-color: #D2D562;
 }
+
+@media (max-width: 700px) {
+    #nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: #D2D562;
+        margin-right: -6em;
+    }
+    h6 {
+        margin-left: 1em;
+    }
+}
   
 .sub {
     margin-left: auto;
@@ -82,17 +94,13 @@ h6:hover {
 }
 
 .music::before {
-    content: url('media/nav/guitar.svg');
+    content: url('media/nav/guitar color.svg');
     position: absolute;
     top: 0em;
     left: 0;
     width: 100%;
     height: 100%;
     transition: opacity 0.3s ease-in-out;
-}
-
-.music:hover::before {
-    content: url('media/nav/guitar color.svg');
 }
 
 .careers::before {
@@ -132,56 +140,103 @@ h6:hover {
     text-align: center;
     height: 100vh; 
     background-image: 
-        url('media/music/background.png'),
         url('media/yellow pattern.png');
     background-size: 
-        cover,
         900px;
 }
 
+.text {
+    background-image: 
+        url('media/music/background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 80vw
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 64px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    .container {
+        background-repeat: no-repeat, repeat;
+        background-size: 
+            cover,
+            500px; 
+    }
+}
+
 .greenstickynote {
-    display: flex; 
-    justify-content: center; /* Horizontally center */
-    align-items: center; /* Vertically center */
-    width: 1500px;  
+    margin-left: 25em;
+    margin-top: 20em;
+    margin-bottom: 20em;
+    width: 600px;  
     height: 100%;
 }
 
+@media (max-width: 700px) {
+    .greenstickynote {
+        margin-left: 10em;
+        margin-top: 10em;
+        width: 400px;
+        height: 100%;
+    }
+}
+
 .smellycat {
-    width: 2000px;    
+    width: 500px;    
     height: 100%;
-    transform: translate(50px, -30px);
+    margin-left: 50em;
     transition: 500ms; 
-    overflow:hidden !important;
 }
 
 .smellycat:hover { 
     transform: scale(1.5); 
     transition: 500ms; 
+}
+
+@media (max-width: 700px) {
+    .smellycat {
+        width: 300px;    
+        height: 100%;
+        margin-left: 20em;
+        margin-top: 10em;
+        transition: 500ms; 
     }
+}
 
 .christmassong {
-    width: 500px;    
-    height: 100%;
-    margin-left: -28em;
-    margin-top: -40em;
+    width: 400px;    
+    height: auto;
+    margin-left: 15em;
+    margin-top: 5em;
     transition: 500ms; 
-    overflow:hidden !important;
+    overflow: hidden !important;
 }
 
 .christmassong:hover { 
     transform: scale(1.5); 
     transition: 500ms;
-    transition: 500ms;
+}
+
+@media (max-width: 700px) {
+    .christmassong {
+        width: 250px;    
+        height: 100%;
+        margin-left: 10em;
+        margin-top: 10em;
+        transition: 500ms; 
     }
+}
 
 .stickyshoes {
-    width: 500px;    
+    width: 300px;    
     height: auto;
-    margin-left: 10em;
-    margin-top: -45em;
+    margin-left: 60em;
     transition: 500ms;
-    overflow: hidden !important;
 }
 
 .stickyshoes:hover { 
@@ -189,30 +244,58 @@ h6:hover {
     transition: 500ms;
     }
 
+@media (max-width: 700px) {
+    .stickyshoes {
+        width: 200px;    
+        height: 100%;
+        margin-left: 20em;
+        margin-top: 10em;
+        transition: 500ms; 
+    }
+}
+
 .yourlove {
-    width: 500px;    
+    width: 200px;    
     height: auto;
-    margin-left: -40em;
-    margin-top: -60em;
+    margin-left: 35em;
+    /* margin-top: -10em; */
     transition: 500ms;
-    overflow:hidden !important;
 }
 
 .yourlove:hover { 
     transform: scale(1.5); 
     transition: 500ms;
     }
+    
+@media (max-width: 700px) {
+    .yourlove {
+        width: 150px;    
+        height: 100%;
+        margin-left: 10em;
+        margin-top: 5em;
+        transition: 500ms; 
+    }
+}
 
 .twoofthemkissedlastnight {
-    width: 500px;    
+    width: 150px;    
     height: auto;
-    margin-left: -5em;
-    margin-top: -50em;
+    margin-left: 60em;
+    /* margin-top: 20em; */
     transition: 500ms;
-    overflow:hidden !important;
 }
 
 .twoofthemkissedlastnight:hover { 
     transform: scale(1.5); 
     transition: 500ms;
+}
+
+@media (max-width: 700px) {
+    .twoofthemkissedlastnight {
+        width: 100px;    
+        height: 100%;
+        margin-left: 20em;
+        margin-top: 5em;
+        transition: 500ms; 
+    }
 }
