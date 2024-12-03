@@ -6,6 +6,14 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
 h1 {
     font-family: "Nothing You Could Do", sans-serif;
     font-size: 96px;
@@ -66,94 +74,79 @@ p2 {
     margin-bottom: 60px;
 }
 
-/* nav */
-  
-/* .topnav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 10em;
-    align-items: center;
-    height: 60px;
-} 
-
-#nav {
-    width: 50px;
-    float: right;
+h6 {
+    font-family: "Nothing You Could Do", sans-serif;
+    font-weight: normal;
 }
 
-#nav2 {
-    margin-right: 10em;
-    margin-left: 15em;
-    white-space: nowrap;
-} */
+.typewriter h6 {
+    font-size: 24px;
+    overflow: hidden; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .10em;
+    animation: typing 5s steps(30, end) infinite, blink-caret .5s step-end infinite;
+    text-align: center;
+    position: relative;
+    background-color: unset !important;
+    color: unset !important;
+  }
+
+  @keyframes typing {
+    0% {
+      width: 0
+    }
+    50% {
+      width: 100%
+    }
+  }  
+
+.one {
+    transform: rotate(12deg);
+    margin-top: -13em;
+    margin-bottom: 15em;
+    text-indent: 21em;
+}
+
+.two {
+    transform: rotate(-12deg);
+    margin-top: -15em;
+    margin-bottom: 5em;
+    margin-left: -28em;
+}
+
+/* nav */
+
+h6 {
+    font-family: "Nothing You Could Do", sans-serif;
+    font-size: 28px;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: 4em;
+}
+
+h6:hover {
+    color: #ffffff;
+}
 
 #nav {
     display: flex;
     justify-content: space-between;
-    background-color: pink;
-  }
+    background-color: #D5B3FF;
+}
   
-  #nav h3 a {
-    color: var(--dark-color);
-    text-decoration: none;
-  }
-  
-  .sub {
+.sub {
     margin-left: auto;
     order: 2;
     display: flex;
     align-items: center;
-  }
-
-  .logo-holder {
-    padding: 0 1em;
-    display: flex;
-    align-items:center;
-    font-weight: bold;
-  }
-
-  .logo-holder a {
-    text-decoration: none;
-    color: var(--body-color);
-  }
-  
-  #logo {
-    height: 3em;
-    width: auto;
-    float: left;
-    margin-right: 1em;
-  }
-
-.sub {
-    padding: 0 1em;
+    margin-right: 7em;
 }
 
 .sub .link-item {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     position: relative; 
-}
-
-.sub .link-item a {
-    display: flex;             
-    align-items: center;       
-    justify-content: center;  
-    width: 100%;
-    height: 100%;
-    text-decoration: none;    
-}
-
-.sub .link-item a img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.sub .link-item a span {
-    position: absolute;             
-    font-size: 25px;          
-    opacity: 0;               
 }
 
 .outfits::before {
@@ -168,6 +161,48 @@ p2 {
 
 .outfits:hover::before {
     content: url('media/nav/orange coat color.svg');
+}
+
+.music::before {
+    content: url('media/nav/guitar.svg');
+    position: absolute;
+    top: 0em;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.music:hover::before {
+    content: url('media/nav/guitar color.svg');
+}
+
+.careers::before {
+    content: url('media/nav/hair turban.svg');
+    position: absolute;
+    top: 0em;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.careers:hover::before {
+    content: url('media/nav/hair turban color.svg');
+}
+
+.recipe::before {
+    content: url('media/nav/cookie.svg');
+    position: absolute;
+    top: 0em;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.recipe:hover::before {
+    content: url('media/nav/cookie color.svg');
 }
 
 /* main */
@@ -274,5 +309,59 @@ p2 {
     margin-right: 10em;
     margin-left: 10em;
 }
+
+.hearts {
+    width: 600px;
+    height: auto;
+    margin-left: 42em;
+    position: absolute;
+    animation: wiggle 0.5s ease-in-out infinite;
+  }
+
+  @keyframes wiggle {
+    0% {
+        transform: rotate(0deg); /* Start at normal position */
+    }
+    25% {
+        transform: rotate(5deg); /* Rotate slightly to the right */
+    }
+    50% {
+        transform: rotate(0deg); /* Return to original position */
+    }
+    75% {
+        transform: rotate(-5deg); /* Rotate slightly to the left */
+    }
+    100% {
+        transform: rotate(0deg); /* Return to normal position */
+    }
+}
+
+.lobster {
+    width: 600px;
+    height: auto;
+    margin-left: 50em;
+    margin-top: -30em;
+    position: absolute;
+    animation: wiggle 0.5s ease-in-out infinite;
+  }
+
+  @keyframes wiggle {
+    0% {
+        transform: rotate(0deg); /* Start at normal position */
+    }
+    25% {
+        transform: rotate(5deg); /* Rotate slightly to the right */
+    }
+    50% {
+        transform: rotate(0deg); /* Return to original position */
+    }
+    75% {
+        transform: rotate(-5deg); /* Rotate slightly to the left */
+    }
+    100% {
+        transform: rotate(0deg); /* Return to normal position */
+    }
+}
+
 
   

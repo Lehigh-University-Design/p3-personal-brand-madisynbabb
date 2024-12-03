@@ -1,10 +1,18 @@
 /* texts */
 
 body {
-    background-image: url('media/landing/crumpled paper.jpeg');
+    background-image: url('media/index/crumpled paper.jpeg');
     background-size: cover;
-    margin-bottom: 80em;
     margin: 0;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
 }
 
 h1 {
@@ -25,6 +33,96 @@ p {
     margin-left: 7em;
 }
 
+/* nav */
+
+h6 {
+    font-family: "Nothing You Could Do", sans-serif;
+    font-size: 28px;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: 4em;
+}
+
+h6:hover {
+    color: #ffffff;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #D2D562;
+}
+  
+.sub {
+    margin-left: auto;
+    order: 2;
+    display: flex;
+    align-items: center;
+    margin-right: 7em;
+}
+
+.sub .link-item {
+    width: 50px;
+    height: 50px;
+    position: relative; 
+}
+
+.outfits::before {
+    content: url('media/nav/orange coat.svg');
+    position: absolute;
+    top: 0em;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.outfits:hover::before {
+    content: url('media/nav/orange coat color.svg');
+}
+
+.music::before {
+    content: url('media/nav/guitar.svg');
+    position: absolute;
+    top: 0em;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.music:hover::before {
+    content: url('media/nav/guitar color.svg');
+}
+
+.careers::before {
+    content: url('media/nav/hair turban.svg');
+    position: absolute;
+    top: 0em;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.careers:hover::before {
+    content: url('media/nav/hair turban color.svg');
+}
+
+.recipe::before {
+    content: url('media/nav/cookie.svg');
+    position: absolute;
+    top: 0em;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.recipe:hover::before {
+    content: url('media/nav/cookie color.svg');
+}
+
 /* main */
 
 .container {
@@ -41,37 +139,80 @@ p {
         900px;
 }
 
+.greenstickynote {
+    display: flex; 
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    width: 1500px;  
+    height: 100%;
+}
+
 .smellycat {
     width: 2000px;    
-    height: auto;
-    margin-left: -5em;
-    margin-top: -5em;
+    height: 100%;
+    transform: translate(50px, -30px);
+    transition: 500ms; 
+    overflow:hidden !important;
 }
+
+.smellycat:hover { 
+    transform: scale(1.5); 
+    transition: 500ms; 
+    }
 
 .christmassong {
     width: 2000px;    
-    height: auto;
+    height: 100%;
     margin-left: -28em;
     margin-top: -40em;
+    transition: 500ms; 
+    overflow:hidden !important;
 }
+
+.christmassong:hover { 
+    transform: scale(1.5); 
+    transition: 500ms;
+    transition: 500ms;
+    }
 
 .stickyshoes {
     width: 2000px;    
     height: auto;
     margin-left: 10em;
     margin-top: -45em;
+    transition: 500ms;
+    overflow:hidden !important;
 }
+
+.stickyshoes:hover { 
+    transform: scale(1.5); 
+    transition: 500ms;
+    }
 
 .yourlove {
     width: 2000px;    
     height: auto;
     margin-left: -40em;
     margin-top: -60em;
+    transition: 500ms;
+    overflow:hidden !important;
 }
+
+.yourlove:hover { 
+    transform: scale(1.5); 
+    transition: 500ms;
+    }
 
 .twoofthemkissedlastnight {
     width: 2000px;    
     height: auto;
     margin-left: -5em;
     margin-top: -50em;
+    transition: 500ms;
+    overflow:hidden !important;
+}
+
+.twoofthemkissedlastnight:hover { 
+    transform: scale(1.5); 
+    transition: 500ms;
 }
