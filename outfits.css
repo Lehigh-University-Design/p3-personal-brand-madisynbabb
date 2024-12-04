@@ -196,11 +196,6 @@ h7 {
 
 /* mobile */
 
-@media screen and (max-width: 47.99rem){
-#mosaic-gallery-grid{
-    display: block;
-}
-
 .tile{
     margin-bottom: 1rem;
 }
@@ -239,4 +234,9 @@ h6 {
 h7 {
     margin-left: 2em;
 }
+
+@media screen and (max-width: 47.99rem){
+    #mosaic-gallery-grid{
+        display: block;
+    }
 }

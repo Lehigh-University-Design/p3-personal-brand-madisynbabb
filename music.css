@@ -32,6 +32,31 @@ p {
     font-size: 20px;
     margin-left: 7em;
 }
+h8 {
+    font-family: "Nothing You Could Do", sans-serif;
+    font-size: 92px;
+}
+
+h9 {
+    font-family: "Nothing You Could Do", sans-serif;
+    font-size: 64px;
+}
+
+h10 {
+    font-family: "Nothing You Could Do", sans-serif;
+    font-size: 48px;
+}
+
+h11 {
+    font-family: "Nothing You Could Do", sans-serif;
+    font-size: 32px;
+}
+
+h12 {
+    font-family: "Nothing You Could Do", sans-serif;
+    font-size: 18px;
+}
+
 
 /* nav */
 
@@ -202,7 +227,7 @@ h7 {
 }
 
 .greenstickynote {
-    margin-left: 30em;
+    margin-left: 27em;
     margin-top: 20em;
     margin-bottom: 20em;
     width: 600px;  
@@ -330,4 +355,35 @@ h7 {
         margin-top: 5em;
         transition: 500ms; 
     }
+}
+
+.smellycatsongtext {
+    margin-left: 10em;
+    margin-top: -15em;
+    margin-bottom: 10em;
+}
+
+.christmassongtext {
+    margin-left: 50em;
+    margin-top: -15em;
+    margin-bottom: 10em;
+}
+
+.stickyshoessongtext {
+    margin-left: 38em;
+    margin-top: -15em;
+    margin-bottom: 10em;
+}
+
+.yourlovesongtext {
+    margin-left: 20em;
+    margin-top: -8em;
+    margin-bottom: 10em;
+}
+
+.twoofthemkissedlastnightsongtext {
+    margin-left: 56em;
+    margin-top: 2em;
+    margin-bottom: 10em;
+
 }
