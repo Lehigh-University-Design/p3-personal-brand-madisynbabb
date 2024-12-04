@@ -41,30 +41,40 @@ h6 {
     margin-top: .5em;
     margin-bottom: .5em;
     margin-left: 4em;
+    margin-bottom: 0;
 }
 
 h6:hover {
     color: #ffffff;
 }
 
+h7 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    margin-left: 9em;
+}
+
 #nav {
     display: flex;
     justify-content: space-between;
     background-color: #FDB054;
+    padding: 10px;
 }
 
-@media (max-width: 700px) {
-    #nav {
-        display: flex;
-        justify-content: space-between;
-        background-color: #FDB054;
-        margin-right: -6em;
-    }
-    h6 {
-        margin-left: 1em;
-    }
+h7 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    margin-left: 9em;
 }
-  
+
+#bottomnav {
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    background-color: #FDB054;
+    padding: 10px;
+}
+
 .sub {
     margin-left: auto;
     order: 2;
@@ -158,21 +168,6 @@ h6:hover {
     width: 80vw
 }
 
-@media (max-width: 700px) {
-    h1 {
-        font-size: 64px;
-    }
-    h2 {
-        font-size: 16px;
-    }
-    .container {
-        background-repeat: no-repeat, repeat;
-        background-size: 
-            cover,
-            500px; 
-    }
-}
-
 #mosaicgallerygrid {
     margin-left: 10em;
     margin-right: 10em;
@@ -199,12 +194,49 @@ h6:hover {
 
     }
 
-    @media screen and (max-width: 47.99rem){
-    #mosaic-gallery-grid{
-        display: block;
-    }
+/* mobile */
 
-    .tile{
-        margin-bottom: 1rem;
-    }
+@media screen and (max-width: 47.99rem){
+#mosaic-gallery-grid{
+    display: block;
+}
+
+.tile{
+    margin-bottom: 1rem;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FDB054;
+    margin-right: -6em;
+}
+
+#bottomnav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FDB054;
+    margin-right: -6em;
+}
+
+h1 {
+    font-size: 64px;
+}
+h2 {
+    font-size: 16px;
+}
+.container {
+    background-repeat: no-repeat, repeat;
+    background-size: 
+        cover,
+        500px; 
+}
+
+h6 {
+    margin-left: 1em;
+}
+
+h7 {
+    margin-left: 2em;
+}
 }

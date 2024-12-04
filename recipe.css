@@ -44,20 +44,52 @@ h6 {
     margin-top: .5em;
     margin-bottom: .5em;
     margin-left: 4em;
+    margin-bottom: 0;
 }
 
 h6:hover {
     color: #ffffff;
 }
 
+h7 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    margin-left: 9em;
+}
+
 #nav {
     display: flex;
     justify-content: space-between;
     background-color: #FF99CC;
+    padding: 10px;
 }
 
 @media (max-width: 700px) {
     #nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: #FF99CC;
+        margin-right: -6em;
+    }
+    h6 {
+        margin-left: 1em;
+    }
+    h7 {
+        margin-left: 2em;
+    }
+}
+
+#bottomnav {
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    background-color: #FF99CC;
+    margin-top: 20em;
+    padding: 10px;
+}
+
+@media (max-width: 700px) {
+    #bottomnav {
         display: flex;
         justify-content: space-between;
         background-color: #FF99CC;

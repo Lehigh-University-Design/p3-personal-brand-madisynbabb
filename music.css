@@ -41,16 +41,24 @@ h6 {
     margin-top: .5em;
     margin-bottom: .5em;
     margin-left: 4em;
+    margin-bottom: 0;
 }
 
 h6:hover {
     color: #ffffff;
 }
 
+h7 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    margin-left: 9em;
+}
+
 #nav {
     display: flex;
     justify-content: space-between;
     background-color: #D2D562;
+    padding: 10px;
 }
 
 @media (max-width: 700px) {
@@ -62,6 +70,30 @@ h6:hover {
     }
     h6 {
         margin-left: 1em;
+    }
+}
+
+#bottomnav {
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    background-color: #D2D562;
+    margin-top: 20em;
+    padding: 10px;
+}
+
+@media (max-width: 700px) {
+    #bottomnav {
+        display: flex;
+        justify-content: space-between;
+        background-color: #D2D562;
+        margin-right: -6em;
+    }
+    h6 {
+        margin-left: 1em;
+    }
+    h7 {
+        margin-left: 2em;
     }
 }
   
@@ -170,7 +202,7 @@ h6:hover {
 }
 
 .greenstickynote {
-    margin-left: 25em;
+    margin-left: 30em;
     margin-top: 20em;
     margin-bottom: 20em;
     width: 600px;  
